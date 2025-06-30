@@ -20,3 +20,4 @@ data/*
 !data/.gitkeep     # Exception: allow a placeholder file to keep folder visible
 
 echo em/ >> .gitignore
+em/
