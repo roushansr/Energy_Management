@@ -1,6 +1,20 @@
-.ipynb_checkpoints/
+# Ignore Python cache
 __pycache__/
 *.pyc
+
+# Ignore virtual environments
+venv/
+elec/
+
+# Ignore data files
+*.csv
+*.xlsx
+*.h5
 *.pkl
-.env
-.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore all data files by default
+data/*
+!data/.gitkeep     # Exception: allow a placeholder file to keep folder visible
