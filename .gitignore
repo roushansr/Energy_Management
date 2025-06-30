@@ -18,3 +18,5 @@ elec/
 # Ignore all data files by default
 data/*
 !data/.gitkeep     # Exception: allow a placeholder file to keep folder visible
+
+echo em/ >> .gitignore
